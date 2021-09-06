@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+li {
+    float: left;
+}
+
+li a {
+    color: #cdcdcd;
+    display: block;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+li img {
+    margin-left: 550px;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 25px;
+    display: block;
+}
