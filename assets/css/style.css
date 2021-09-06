@@ -2,6 +2,7 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #333333;
+    margin: 0;
 }
   
 li {
@@ -16,10 +17,6 @@ li a {
     padding: 8px;
 }
 
-.nav-bar-center-align {
-    margin-left: 580px;
-}
-
 li img {
     margin-top: 5px;
     margin-right: 20px;
@@ -27,9 +24,18 @@ li img {
     display: block;    
 }
 
-.title-content {
+.nav-bar-center-align {
+    margin-left: 580px;
+}
+
+.title {
     font-family: Arial;
     font-size: 60px;
+}
+
+.title-content {
+    font-family: Calibri;
+    font-size: 30px;
 }
 
 .download-btn {
@@ -45,6 +51,8 @@ li img {
 }
 
 .div-header-bg {
+    margin: 0;
     padding: 100px;
+    display: block;
     background-color: whitesmoke;
 }
