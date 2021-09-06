@@ -2,7 +2,7 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #333333;
-  }
+}
   
 li {
     float: left;
@@ -16,10 +16,35 @@ li a {
     padding: 8px;
 }
 
+.nav-bar-center-align {
+    margin-left: 580px;
+}
+
 li img {
-    margin-left: 550px;
     margin-top: 5px;
     margin-right: 20px;
     width: 25px;
-    display: block;
+    display: block;    
+}
+
+.title-content {
+    font-family: Arial;
+    font-size: 60px;
+}
+
+.download-btn {
+    display: inline;    
+    color: #333333;
+    background-color: transparent;
+    border-radius: 7px;
+    border-color: #333333;
+    width: 160px;
+    height: 55px;
+    font-family: Arial;
+    font-size: 18px;    
+}
+
+.div-header-bg {
+    padding: 100px;
+    background-color: whitesmoke;
 }
