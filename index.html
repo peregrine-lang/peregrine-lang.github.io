@@ -1,11 +1,11 @@
 <script>
-    
+
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
 
     if (isMobile) {
-        window.location.href.replace(window.location.href, "https://swallow-lang.github.io/mobile")
+        location.replace("https://swallow-lang.github.io/mobile")
     } else {
-        window.location.href.replace(window.location.href, "https://swallow-lang.github.io/desktop")
+        location.replace("https://swallow-lang.github.io/desktop")
     }
 
 </script>
