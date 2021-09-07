@@ -18,27 +18,25 @@ body {
     padding: 8px;
 }
 
-.div-header-bg {
+.session-one {
+    display: block;
     margin: 0;
     padding: 100px;
-    display: block;
-    background-color: black;
 }
 
-.title {
+.session-one h1 {
     font-family: Arial;
     font-size: 60px;
     color: whitesmoke;
-
 }
 
-.title-content {
+.session-one p {
     font-family: Calibri;
     color: whitesmoke;
     font-size: 30px;
 }
 
-.download-btn {
+.session-one button {
     display: inline;    
     color: whitesmoke;
     background-color: transparent;
@@ -48,4 +46,27 @@ body {
     height: 55px;
     font-family: Arial;
     font-size: 18px;    
+}
+
+.session-two {
+    margin: 0;
+}
+
+.session-two img {
+    padding: 50px;
+    float: left;
+
+}
+
+.session-two h1 {
+    font-family: Arial;
+    padding-top: 50px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.session-two p {
+    font-family: Calibri;
+    color: whitesmoke;
+    font-size: 30px;
 }
