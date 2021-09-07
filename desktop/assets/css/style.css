@@ -22,11 +22,25 @@ body {
     display: block;
     margin: 0;
     padding: 100px;
+    margin-bottom: 120px;
 }
 
 .session-one h1 {
     font-family: Arial;
     font-size: 60px;
+    color: whitesmoke;
+}
+
+.session-one img {
+    width: 30px;
+}
+
+.session-one a {
+    display: block;
+    text-decoration: none;
+    padding-top: 100px;
+    font-family: Arial;
+    font-size: 20px;
     color: whitesmoke;
 }
 
@@ -67,7 +81,7 @@ body {
 }
 
 .session-one button {
-    display: inline;    
+    display: block;    
     color: whitesmoke;
     background-color: transparent;
     border-radius: 7px;
@@ -80,6 +94,7 @@ body {
 
 .session-two {
     margin: 0;
+    margin-bottom: 160px;
 }
 
 .session-two img {
