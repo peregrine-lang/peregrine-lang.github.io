@@ -100,7 +100,7 @@ body {
 .session-two img {
     padding: 50px;
     float: left;
-
+    height: 550px;
 }
 
 .session-two h1 {
@@ -138,4 +138,26 @@ body {
     font-family: Arial;
     font-size: 12px;    
     margin-bottom: 12px;
+}
+
+.footer {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.footer p {
+    font-family: Calibri;
+    padding: 30px;
+    margin: 0;
+    color: #a4a4a9;
+    float: left;
+}
+
+.footer a {
+    font-family: Calibri;
+    padding: 30px;
+    float: left;
+    margin: 0;
+    color: #909092;
+    text-decoration: none;
 }
