@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+}
+
+.nav-bar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+    margin: 0;
+    display: inline;
+}
+
+.nav-bar a {
+    font-family: Calibri;
+    color: #cdcdcd;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.session-one {
+    display: block;
+    margin: 0;
+    padding: 100px;
+}
+
+.session-one h1 {
+    font-family: Arial;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.session-one p {
+    font-family: Calibri;
+    color: whitesmoke;
+    font-size: 36px;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.session-one button {
+    display: inline;    
+    color: whitesmoke;
+    background-color: transparent;
+    border-radius: 7px;
+    border-color: whitesmoke;
+    width: 160px;
+    height: 55px;
+    font-family: Arial;
+    font-size: 18px;    
+}
+
+.session-two {
+    margin: 0;
+}
+
+.session-two img {
+    padding: 50px;
+    float: left;
+
+}
+
+.session-two h1 {
+    font-family: Arial;
+    padding-top: 50px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.session-two p {
+    font-family: Calibri;
+    color: whitesmoke;
+    font-size: 30px;
+}
