@@ -115,3 +115,27 @@ body {
     color: whitesmoke;
     font-size: 30px;
 }
+
+.footer-dialog {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cdcdcd;
+    color: #333333;
+    text-align: center;
+    display: inline;
+}
+
+.footer-dialog button {   
+    display: inline-block;
+    color: whitesmoke;
+    background-color: #333333;
+    border-radius: 4px;
+    border: none;
+    width: 60px;
+    height: 25px;
+    font-family: Arial;
+    font-size: 12px;    
+    margin-bottom: 12px;
+}
