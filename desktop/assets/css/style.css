@@ -1,119 +1,11 @@
 body {
     background-color: black;
-}
-
-.nav-bar {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333333;
-    margin: 0;
-    display: inline;
-}
-
-.nav-bar a {
-    font-family: Calibri;
-    color: #cdcdcd;
-    margin-right: 20px;
-    text-decoration: none;
-    padding: 8px;
-}
-
-.session-one {
-    display: block;
-    margin: 0;
-    padding: 100px;
-    margin-bottom: 120px;
-}
-
-.session-one h1 {
-    font-family: Arial;
-    font-size: 60px;
-    color: whitesmoke;
-}
-
-.session-one img {
-    width: 30px;
-}
-
-.session-one a {
-    display: block;
-    text-decoration: none;
-    padding-top: 100px;
-    font-family: Arial;
-    font-size: 20px;
-    color: whitesmoke;
-}
-
-.session-one p {
-    font-family: Calibri;
-    color: whitesmoke;
-    font-size: 36px;
-    animation: fadeIn linear 2s;
-    -webkit-animation: fadeIn linear 2s;
-    -moz-animation: fadeIn linear 2s;
-    -o-animation: fadeIn linear 2s;
-    -ms-animation: fadeIn linear 2s;
-}
-
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-  
-@-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-.session-one button {
-    display: block;    
-    color: whitesmoke;
-    background-color: transparent;
-    border-radius: 7px;
-    border-color: whitesmoke;
-    width: 160px;
-    height: 55px;
-    font-family: Arial;
-    font-size: 18px;    
-}
-
-.session-two {
-    margin: 0;
-    margin-bottom: 160px;
-}
-
-.session-two img {
-    padding: 50px;
-    float: left;
-    height: 550px;
-}
-
-.session-two h1 {
-    font-family: Arial;
-    padding-top: 50px;
-    font-size: 60px;
-    color: whitesmoke;
-}
-
-.session-two p {
-    font-family: Calibri;
-    color: whitesmoke;
-    font-size: 30px;
+    /* background-image: url("https://i.pinimg.com/originals/75/c2/f8/75c2f842863ae2df6b3ac2d0a4d63026.gif");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .footer-dialog {
@@ -160,4 +52,142 @@ body {
     margin: 0;
     color: #909092;
     text-decoration: none;
+}
+
+.footer img {
+    padding: 10px;
+    float: right;
+    width: 60px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-bar a {
+    font-family: Calibri;
+    color: #cdcdcd;
+    margin-right: 20px;
+    text-decoration: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 13px 16px;
+}
+
+.nav-bar button {
+    float: right;
+    margin-right: 8px;
+    margin-top: 8px;
+    display: block;    
+    color: #333333;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border-color: whitesmoke;
+    border: none;
+    width: 90px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 13px;    
+}
+
+.session-one {
+    display: block;
+    margin: 0;
+    padding: 140px;
+    margin-bottom: 120px;
+    background-color: black;
+}
+
+.session-one h1 {
+    font-family: Arial;
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+.session-one img {
+    width: 30px;
+}
+
+.session-one a {
+    display: block;
+    text-decoration: none;
+    padding-top: 100px;
+    font-family: Arial;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.session-one p {
+    font-family: Calibri;
+    color: #e2e2e2;
+    opacity:0.5;
+    font-size: 36px;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.session-two {
+    margin: 0;
+    margin-bottom: 160px;
+    background-image: url("https://assets.wallpapersin4k.org/uploads/2017/04/Black-Wallpaper-Gif-15.gif");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.session-two img {
+    padding: 50px;
+    float: left;
+    height: 550px;
+}
+
+.session-two h1 {
+    font-family: Arial;
+    padding-top: 50px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.session-two p {
+    font-family: Calibri;
+    color: whitesmoke;
+    font-size: 30px;
 }
