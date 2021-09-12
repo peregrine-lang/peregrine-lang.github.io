@@ -13,7 +13,7 @@ _desktop = `
     <p>A Fast alternative language to Python,<br>Built using V and C programming language.</p>
 </div>
 
-<div id="about" style="background-color: whitesmoke;padding: 150px;">
+<div id="about" style="background-color: whitesmoke;padding: 150px;animation: fadeIn linear 2s;-webkit-animation: fadeIn linear 2s;-moz-animation: fadeIn linear 2s;-o-animation: fadeIn linear 2s;-ms-animation: fadeIn linear 2s;">
     <h1 style="font-family: Arial;color: #ababab;padding: 14px;">About</h1>
     <p style="font-family: Calibri;color: #626262;padding-left: 14px;font-size: 18px;">An easy to use systems programming language with python like syntax.</p>
     <br>
@@ -22,6 +22,16 @@ _desktop = `
     <br>
     <h1 style="font-family: Arial;color: #ababab;padding: 14px;">How does it work?</h1>
     <p style="font-family: Calibri;color: #626262;padding-left: 14px;font-size: 18px;">You can consider it to be a superset of c which compiles to clean c.<br>So valid c code is also valid swallow code(the language is named swallow).</p>
+</div>
+
+<div id="get-basics">
+    <h1 style="font-family: Arial;color: #ababab;padding: 14px;">Get Basic:</h1>
+    <pre>
+    <code style="background-color: #f2f3f5;color: #4f5660 ;padding: 14px;display: block;width: 200px;border: red;">
+    def main():
+        print("hi")
+    </code>    
+    </pre>    
 </div>
 
 <div id="footer" style="background-color: whitesmoke;">
