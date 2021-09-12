@@ -25,12 +25,17 @@ _desktop = `
     <p style="font-family: Calibri;color: #626262;padding-left: 14px;font-size: 18px;">You can consider it to be a superset of c which compiles to clean c.<br>So valid c code is also valid swallow code(the language is named swallow).</p>
 </div>
 
-<div id="get-basics" align="right">
+<div id="get-basics">
     <h1 style="font-family: Arial;color: #ababab;padding: 14px;">Get Basic:</h1>
     <pre>
-    <code style="background-color: #f2f3f5;color: #4f5660 ;padding: 14px;display: block;width: 200px;">
-    def main():
-        print("hi")
+    <code style="background-color: #f2f3f5;color: #4f5660 ;padding: 14px;display: block;width: 600px;">
+def main():
+    print("hi")
+
+def main():
+    list areas = ['game', 'web', 'science', 'systems', 'drivers', 'GUI', 'mobile']
+    for area in areas:
+        println(f'Hello, {area} developers!')
     </code>    
     </pre>    
 </div>
@@ -61,5 +66,3 @@ if (isMobile) {
 } else {
     document.write(_desktop)
 }
-
-
