@@ -1,0 +1,57 @@
+.session-one {
+    margin: 0;
+    padding: 140px;
+    background-color: black;
+}
+
+.session-one h1 {
+    font-family: Arial;
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+.session-one a {
+    display: block;
+    text-decoration: none;
+    padding-top: 100px;
+    font-family: Arial;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.session-one p {
+    font-family: Calibri;
+    color: #e2e2e2;
+    opacity:0.5;
+    font-size: 36px;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
