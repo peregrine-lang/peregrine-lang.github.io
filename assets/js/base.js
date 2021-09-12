@@ -24,7 +24,7 @@ _desktop = `
 `
 
 _mobile = `
-hello
+Currenly this website does'nt support mobile.
 `
 
 var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
