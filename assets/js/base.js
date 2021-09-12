@@ -18,7 +18,7 @@ _desktop = `
         <a href="https://www.mozilla.org/en-US/MPL/2.0/" style="font-family: Calibri;padding: 30px;float: left;margin: 0;color: #909092;text-decoration: none;">License</a>
         <a href="https://en.wikipedia.org/wiki/India" style="font-family: Calibri;padding: 30px;float: right;margin: 0;color: #909092;text-decoration: none;">India</a>
         <a href="https://github.com/Swallow-lang/swallow/issues" style="font-family: Calibri;padding: 30px;float: left;margin: 0;color: #909092;text-decoration: none;">Report Issue</a>
-        <p style="font-family: Calibri;padding: 30px;float: left;margin: 0;color: #7ebde2;">Contributing</p>
+        <a href="https://github.com/Swallow-lang/swallow/pulls" style="font-family: Calibri;padding: 30px;float: left;margin: 0;color: #7ebde2;text-decoration: none;">Contributing</a>
     </center>
 </div>
 `
