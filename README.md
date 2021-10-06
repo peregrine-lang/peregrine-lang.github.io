@@ -1,1 +1,1 @@
-# https://swallow-lang.github.io/
+# https://peregrine-lang.github.io/
