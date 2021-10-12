@@ -1,1 +1,2 @@
-- [ ] Design
+- [x] Design
+- [ ] Code
