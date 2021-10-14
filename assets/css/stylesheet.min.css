@@ -3,22 +3,25 @@
 * {margin: 0;}
 body {background-color: whitesmoke;font-family: 'Roboto', sans-serif;letter-spacing: 1px;}
 
-.nav-bar {background-color: #333333;position: fixed;width: fit-content;overflow-x: hidden;height: 100%;padding: 30px;}
-.nav-bar a {color: white;text-decoration: none;padding: 18px;display: block;}
+.nav-bar {background-color: #333333;position: fixed;width: fit-content;overflow-x: hidden;height: 100%;padding: 30px;text-transform: uppercase;}
+.nav-bar a {color: white;text-decoration: none;padding: 18px;display: block;font-size: 14px;}
 .nav-bar a:hover {transform : scale(0.80);}
 .nav-bar img {width: 60px;padding: 10px;}
+.nav-bar p {color: white;padding: 18px;display: block;font-weight: bolder;font-size: 16px;}
 
-.container {margin-left: 260px;}
+.container {margin-left: 280px;}
 
 @-webkit-keyframes updown {0% {transform: translateY(10px);}100% {transform: translateY(-10px);}}
 @keyframes updown {0% {transform: translateY(10px);} 100% {transform: translateY(-10px);}}
 
-.logo-with-text {padding: 10px;padding-top: 50px;border: none;display: flex;align-items: center;width: fit-content;border-radius: 10px;}
-.logo-with-text p {font-size: 50px;color: black;display: flex;align-items: center;padding-left: 15px;}
-.logo-with-text img {width: 70px;animation: updown 2s ease-in-out infinite alternate-reverse both;}
+.logo {padding: 25px;border: none;display: flex;align-items: center;width: fit-content;border-radius: 10px;}
+.logo img {width: 90px;animation: updown 2s ease-in-out infinite alternate-reverse both;}
 
-.header-bold-text {padding: 10px;font-size: 30px;font-weight: bold;color: #2a3f54;}
-.header-normal-text {padding: 10px;font-size: 18px;}
+.bold-text {padding: 10px;padding-top: 40px;font-size: 60px;font-weight: bolder;color: #2a3f54;}
+
+.sub-bold-text {padding: 10px;font-size: 30px;font-weight: bold;color: black;}
+
+.sub-normal-text {padding: 10px;font-size: 18px;}
 
 .contribution {padding: 20px;width: 450px;}
 .contribution #github-repo {padding: 20px;}
@@ -40,4 +43,4 @@ body {background-color: whitesmoke;font-family: 'Roboto', sans-serif;letter-spac
 .featured-container p {padding: 10px;}
 .featured-container:hover {transform : scale(1.01);}
 
-@media (max-width: 990px) {.container {margin: 0;} .nav-bar {visibility: hidden;} .get-basic {width: 400px;} .contribution {width: 400px;} .contribution img {width: 350px;} .header-bold-text {font-size: 35px;text-align: left;padding: 15px;} .header-normal-text {font-size: 20px;text-align: center;} .featured-container {height: 40px;align-items: center;margin-left: 0;margin-bottom: 10px;} .featured {display: block;}}
+@media (max-width: 500px) {.container {margin: 0;} .nav-bar {visibility: hidden;} .get-basic {width: 400px;} .contribution {width: 400px;} .contribution img {width: 350px;} .header-bold-text {font-size: 35px;text-align: left;padding: 15px;} .header-normal-text {font-size: 20px;text-align: center;} .featured-container {height: 40px;align-items: center;margin-left: 0;margin-bottom: 10px;} .featured {display: block;}}
