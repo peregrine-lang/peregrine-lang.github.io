@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {margin: 0;}
+body {background-color: whitesmoke;font-family: 'Roboto', sans-serif;letter-spacing: 1px;}
+
+.nav-bar {background-color: #333333;position: fixed;width: fit-content;overflow-x: hidden;height: 100%;padding: 30px;}
+.nav-bar a {color: white;text-decoration: none;padding: 18px;display: block;}
+.nav-bar a:hover {transform : scale(0.80);}
+.nav-bar img {width: 60px;padding: 10px;}
+
+.container {margin-left: 260px;}
+
+@-webkit-keyframes updown {0% {transform: translateY(10px);}100% {transform: translateY(-10px);}}
+@keyframes updown {0% {transform: translateY(10px);} 100% {transform: translateY(-10px);}}
+
+.logo-with-text {padding: 10px;padding-top: 50px;border: none;display: flex;align-items: center;width: fit-content;border-radius: 10px;}
+.logo-with-text p {font-size: 50px;color: black;display: flex;align-items: center;padding-left: 15px;}
+.logo-with-text img {width: 70px;animation: updown 2s ease-in-out infinite alternate-reverse both;}
+
+.header-bold-text {padding: 10px;font-size: 30px;font-weight: bold;color: #2a3f54;}
+.header-normal-text {padding: 10px;font-size: 18px;}
+
+.contribution {padding: 20px;width: 450px;}
+.contribution #github-repo {padding: 20px;}
+.contribution #github-repo:hover {transform : scale(1.01);}
+.contribution h2 {padding: 10px;font-size: 30px;font-weight: bold;color: #2a3f54;}
+.contribution p {font-size: 16px;padding-left: 20px;}
+.contribution a {font-size: 16px;text-decoration: none;font-weight: bold;color: #4078c3;}
+
+.get-basic {width: 430px;padding: 20px;}
+.get-basic #gist {padding: 15px;}
+.get-basic #gist:hover {transform : scale(1.01);}
+.get-basic h2 {padding: 10px;font-size: 30px;font-weight: bold;color: #2a3f54;}
+.get-basic p {font-size: 16px;padding-left: 20px;}
+.get-basic a {font-size: 16px;text-decoration: none;font-weight: bold;color: #4078c3;}
+
+.featured {display: flex;font-weight: bold;color: #2a3f54;padding: 20px;}
+.featured-container {margin-left: 10px;padding: 10px;border: 2px solid #ccc ;display: flex;align-items: center;width: fit-content;border-radius: 10px;background-color: white;}
+.featured-container img {width: 40px;}
+.featured-container p {padding: 10px;}
+.featured-container:hover {transform : scale(1.01);}
+
+@media (max-width: 990px) {.container {margin: 0;} .nav-bar {visibility: hidden;} .get-basic {width: 400px;} .contribution {width: 400px;} .contribution img {width: 350px;} .header-bold-text {font-size: 35px;text-align: left;padding: 15px;} .header-normal-text {font-size: 20px;text-align: center;} .featured-container {height: 40px;align-items: center;margin-left: 0;margin-bottom: 10px;} .featured {display: block;}}
