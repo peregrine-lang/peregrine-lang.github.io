@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Mingzat";
-    src: url("assets/font/Mingzat-Regular.ttf");
+    src: url("https://fonts.gstatic.com/s/mingzat/v1/0QIgMX5C-o-oWWyvNtxumg.woff2");
 }
 
 * {
@@ -44,7 +44,7 @@ h1, img, #code {
 nav {
     background-color: #F15412;
     color: white;
-    height: 45px;
+    height: 34px;
     width: 100%;
     display: flex;
     justify-content: center;
