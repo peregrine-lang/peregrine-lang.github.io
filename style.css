@@ -1,10 +1,4 @@
-@font-face {
-    font-family: "Mingzat";
-    src: url("https://fonts.gstatic.com/s/mingzat/v1/0QIgMX5C-o-oWWyvNtxumg.woff2");
-}
-
 * {
-    font-family: "Mingzat";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,8 +27,8 @@
 }
 
 body {
-    background-color: #181818;
-    color: #EEEEEE;
+    background-color: #e9e9e9;
+    color: #000000;
 }
 
 h1, img, #code {
@@ -42,9 +36,9 @@ h1, img, #code {
 }
 
 nav {
-    background-color: #F15412;
+    background-color: #333333;
     color: white;
-    height: 34px;
+    height: 45px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -59,15 +53,20 @@ nav a {
     color: white !important;
     opacity: 0.8;
     word-break: initial !important;
+    text-decoration: none !important;
 }
 
 nav a:hover {
     opacity: 1;
 }
 
-a, a:visited, a:hover {
-    color: #34B3F1;
+a, a:visited {
+    color: #257aa4;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -77,32 +76,36 @@ section {
     padding: 15px;
 }
 
-#code, #licensepreview {
+pre {
     font-family: monospace !important;
-    background-color: #161b22;
+    background-color: #e6e6e6;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 4px;
     overflow: auto;
-    border: 1px solid #1b2027;
+    border: 1px solid #cccccc;
+    color: #2b2b2b;
+    margin: 7px 0;
+    font-size: 12px !important;
 }
 
-#code {
-    color: #DF7861;
-    white-space: pre;
-}
-
-#licensepreview {
-    color: #DF7861;
+h1, h2 {
+    margin: 4px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 h1 {
     font-size: 30px;
 }
 
+h2 {
+    font-size: 24px;
+}
+
 p {
     font-size: 14px;
+    font-family: monospace;
     white-space: pre-line;
-    line-height: 30px;
+    line-height: 22px;
 }
 
 .h_C {
