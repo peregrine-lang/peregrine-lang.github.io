@@ -14,109 +14,81 @@
     scrollbar-width: thin;
     transition: 0.4s;
     word-break: break-word;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-::selection {
-    background-color: #e1e1e1;
-    color: black;
-}
-
-::-moz-selection {
-    background-color: #e1e1e1;
-    color: black;
-}
 
 body {
-    background-color: #e9e9e9;
-    color: #000000;
-}
-
-h1, img, #code {
-    margin: 5px 0;
-}
-
-nav {
-    background-color: #333333;
-    color: white;
-    height: 45px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding: 0 10px;
-    overflow-x: auto;
-}
-
-nav a {
-    font-size: 14px;
-    color: white !important;
-    opacity: 0.8;
-    word-break: initial !important;
-    text-decoration: none !important;
-}
-
-nav a:hover {
-    opacity: 1;
-}
-
-a, a:visited {
-    color: #257aa4;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    background-color: white;
+    color: black;
 }
 
 section {
-    width: 100vw;
-    max-width: 800px;
-    min-width: 300px;
-    padding: 15px;
-}
-
-pre {
-    font-family: monospace !important;
-    background-color: #e6e6e6;
+    height: calc(100vh - 35px);
+    width: calc(100% - 20px);
+    min-width: 350px;
+    max-width: 650px;
+    text-align: center;
+    position: absolute;
+    inset: 35px 0 0 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
     padding: 10px;
-    border-radius: 4px;
-    overflow: auto;
-    border: 1px solid #cccccc;
-    color: #2b2b2b;
-    margin: 7px 0;
-    font-size: 12px !important;
-}
-
-h1, h2 {
-    margin: 4px 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 h1 {
     font-size: 30px;
 }
 
-h2 {
-    font-size: 24px;
-}
-
 p {
-    font-size: 14px;
-    font-family: monospace;
-    white-space: pre-line;
-    line-height: 22px;
+    font-size: 16px;
 }
 
-.h_C {
+a, a:visited {
+    color: unset;
+}
+
+nav {
+    height: 35px;
+    width: 100%;
+    padding: 2px;
+    background-color: #105ca7;
+    color: white;
+    text-align: center;
+}
+
+._ni {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    /* border: 1px solid; */
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav svg {
+    height: 14px;
+    width: 14px;
+    fill: white;
+}
+
+._r {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-img[alt=logo] {
-    --size: 80px;
-    height: var(--size);
-    width: var(--size);
+._li {
+    display: block;
+    height: 64px;
+    width: 64px;
+}
+
+._pi {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
